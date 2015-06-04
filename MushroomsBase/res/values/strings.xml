@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mushrooms</string>
+    <string name="new_mushroom">Mew Mushroom</string>
+    <string name="title_activity_mushroom_detail">Mushroom Detail</string>
+    <string name="no_image_mushroom">No image</string>
+    <string name="action_settings">Settings</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="change_image">Change mushroom image</string>
+    <string name="common_name">Common name</string>
+    <string name="binomial_name">Binomial name</string>
+    <string name="description">Description</string>
+    <string name="title_activity_create_mushroom">New Mushroom</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_update_mushroom">Edit Mushroom</string>
+
+</resources>

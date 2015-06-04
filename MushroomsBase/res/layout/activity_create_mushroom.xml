@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_brown_100"
+    android:orientation="vertical"
+    tools:context="com.csc.jsuarezardid.mushrooms_local.MushroomDetailActivity" >
+
+    <FrameLayout
+        android:id="@+id/fl_create_mushroom_image"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ImageView
+                android:id="@+id/iv_create_mushroom_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_brown_300"
+                android:contentDescription="@string/no_image_mushroom"
+                android:scaleType="centerCrop"
+                android:src="@drawable/noimage" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30dip"
+                android:layout_alignParentBottom="true"
+                android:background="#20000000"
+                android:gravity="center"
+                android:text="@string/change_image"
+                android:textColor="#BBFFFFFF" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/et_create_mushroom_common_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_margin="10dip"
+        android:background="@color/color_white"
+        android:elevation="1dip"
+        android:hint="@string/common_name"
+        android:inputType="text"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:textColor="@color/color_brown_700"
+        android:textColorHint="@color/color_brown_100" />
+
+    <EditText
+        android:id="@+id/et_create_mushroom_binomial_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_margin="10dip"
+        android:background="@color/color_white"
+        android:elevation="1dip"
+        android:hint="@string/binomial_name"
+        android:inputType="text"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:textColor="@color/color_brown_700"
+        android:textColorHint="@color/color_brown_100" />
+
+    <EditText
+        android:id="@+id/et_create_mushroom_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@color/color_white"
+        android:elevation="1dip"
+        android:gravity="top|start"
+        android:hint="@string/description"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:paddingBottom="8dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="8dip"
+        android:textColor="@color/color_brown_700"
+        android:textColorHint="@color/color_brown_100" />
+
+</LinearLayout>
